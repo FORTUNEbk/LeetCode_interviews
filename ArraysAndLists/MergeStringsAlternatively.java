@@ -1,6 +1,6 @@
 
 
-class MergeStringsAlternatively {
+public class MergeStringsAlternatively {
     public String mergeAlternately(String word1, String word2) {
         char[]  char1= word1.toCharArray();
         char[] char2= word2.toCharArray();
