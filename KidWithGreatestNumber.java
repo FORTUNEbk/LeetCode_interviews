@@ -1,20 +1,19 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class KidWithGreatestNumber {
         public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
-           while(true){
-            int result;
-            for(int i = 0; i<candies.length; i++){
-            result = candies[i] +extraCandies;
+            int maxCandies = 0;
+         for(int candy: candies){
+            maxCandies = Math.max(maxCandies, candy);
+         }
+         List <Boolean> result = new ArrayList<>();
 
-            int great = result;
-            if(candies[i]> result){
-                candies[i] = great;   
-                     }
-            }
+         for(int candy: candies){
+            result.add(extraCandies+ candy >= maxCandies);
+         }
 
-            
-    }
+         return result;
 
 }
 public static void main(String[] args) {
