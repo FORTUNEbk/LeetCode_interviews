@@ -4,9 +4,12 @@ public class ReverseWordInString {
         String[] myStr = s.split(" ");
         StringBuilder mysBuilder = new StringBuilder();
 
-        for(String m:myStr){
-           StringBuilder reversed = new StringBuilder(m);
-           mysBuilder.append(reversed.reverse().append(" "));
+        for(int i=myStr.length -1; i >=0; i--){
+            mysBuilder.append(myStr[i]);
+
+            if(i != 0){
+                mysBuilder.append(" ");
+            }
 
         }
         return mysBuilder.toString().trim();
