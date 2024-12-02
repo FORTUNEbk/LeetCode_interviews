@@ -1,6 +1,8 @@
 public class ReverseWordInString {
     public String reverseWords(String s) {
 
+        s = s.trim().replaceAll("\\s+", " ");
+
         String[] myStr = s.split(" ");
         StringBuilder mysBuilder = new StringBuilder();
 
