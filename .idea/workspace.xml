@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8a3c59cf-ba8b-4137-81e3-9f131e076433" name="Changes" comment="Determine if two strings are close&#10;Unique number of occurence">
       <change beforePath="$PROJECT_DIR$/LeetCode_interviews" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode_interviews" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode_interviews/HashMaps/determineIfStringsAreClose.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,12 +13,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/LeetCode_interviews" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "FORTUNEbk"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/FORTUNEbk/LeetCode_interviews.git",
+    "accountId": "ab03beb6-9700-49c8-9fd7-3798a8d4be2c"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2sXkSaoJroCNlSQoBqBC1WN7MzR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,6 +40,7 @@
   "keyToString": {
     "Application.FindPivotIndex.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -56,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1738609317870</updated>
       <workItem from="1738609354714" duration="2483000" />
+      <workItem from="1738865028379" duration="72000" />
     </task>
     <task id="LOCAL-00001" summary="Determine if two strings are close&#10;Unique number of occurence">
       <option name="closed" value="true" />
